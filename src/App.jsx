@@ -9,6 +9,7 @@ import Landing from './pages/Landing/Landing'
 import Profiles from './pages/Profiles/Profiles'
 import ChangePassword from './pages/ChangePassword/ChangePassword'
 import StarshipList from './pages/StarshipList/StarshipList'
+import StarshipPage from './pages/StarshipPage/StarshipPage'
 
 // components
 import NavBar from './components/NavBar/NavBar'
@@ -64,6 +65,7 @@ function App() {
           }
         />
         <Route path='/starships' element={<StarshipList />} />
+        <Route path='/starships/:idx' element={<StarshipPage />} />
       </Routes>
     </>
   )
