@@ -30,5 +30,11 @@ a:visited {
 nav > ul {
   margin: 0;
   padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+li > a {
+  text-decoration: none;
 }
 

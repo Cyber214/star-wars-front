@@ -1,0 +1,31 @@
+.starship-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  font-size: x-large;
+}
+
+.starship-card {
+  border: 1px solid aqua;
+  border-radius: 8px;
+  height: 10vh;
+  min-width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(15,17,31);
+  color: whitesmoke
+}
+
+.starship-card:hover {
+  border-color: rgb(226, 0, 0);
+  color: red;
+}
+
+#header {
+  text-align: center;
+}
